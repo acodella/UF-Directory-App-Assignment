@@ -6,3 +6,21 @@
   max-height: 400px;
   overflow: auto;
 }
+
+<style>
+table, th , td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+th {
+  background-color: black;
+  color: white;
+}
+tr:nth-child(odd) td{ background-color: #FFA533; }
+tr:nth-child(even) td{ background-color: #3393FF; }
+tr:hover td{
+    background: #F7F7F6;
+    cursor: pointer;
+}
+</style>
